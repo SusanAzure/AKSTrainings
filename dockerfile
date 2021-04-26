@@ -1,4 +1,4 @@
-FROM java:11
+FROM openjdk:11
 WORKDIR /
 ADD HelloWorld.jar HelloWorld.jar
 EXPOSE 8080
